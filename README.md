@@ -46,7 +46,7 @@ To run docker and list availabel options type:
 Add alias into your `.bashrc`, `.bash_profile` or `.profile` file to be able to run it as one simple command. 
 
 Alias:  
-`alias linode='docker run --rm -e GITHUB_KEY=your_key -e LINODE_KEY=your_key million12/linode-coreos-api linode'`
+`alias linode='docker run --rm -t -e GITHUB_KEY=your_key -e LINODE_KEY=your_key million12/linode-coreos-api linode'`
 
 ---
 
